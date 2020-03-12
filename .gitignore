@@ -1,0 +1,8 @@
+/node_modules
+/dist
+
+/test-local/node_modules
+/test-local/dist
+
+/test-prod/node_modules
+/test-prod/dist

@@ -1,0 +1,28 @@
+@import mixin
+
+body
+	margin: 0
+
++webfont('Arial-BoldMT', 'Arial/Arial-BoldMT')
++webfont('Arial-Black', 'Arial/Arial-Black')
++webfont('MagaluDisplayAlpha-Bold', 'Magalu/MagaluDisplayAlpha-Bold')
+
+
+p
+	font-family: 'Ubuntu-Regular'
+
+button
+	&:focus
+		outline-color: #FFE1A9
+
+a
+	text-decoration: none
+
+.phantom-scroll-x
+	scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)
+	scrollbar-width: 0
+	&::-webkit-scrollbar
+		opacity: 0
+	&::-webkit-scrollbar-thumb
+		opacity: 0
+
